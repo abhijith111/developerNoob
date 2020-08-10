@@ -1,0 +1,48 @@
+git config --global user.name "abhijith111"
+git config --global user.email abhijithsudheer1998
+git init #initialize repo
+tree #tree view of folders in cmd
+ls -a #in terminal to view hidden files
+git log , git log --all
+git checkout <commit id> #example checkout
+git branch #to get current branch
+
+git branch <branch-name>
+git add --all #add all folders and subfolders also
+git log --all
+git merge <another branchname> #to merge branchname to the current branch
+#two type merge - fast forward merge(no new commits) - recursive merge(new commit with new comment)
+#if conflicts occurs open up the specified file and explicity edit the file, modifications for both branches
+#will be specified.
+
+git diff #to get the difference between anything
+git log --all --decorate --graph
+git stash #remove modification which are not added to cashe
+
+git remote add <name> <repo link> #create a link to the remote server(github/gitlab)
+git remote #show current remote link names
+git remote -v #for fetch and push remote link names
+
+git clone <link> #access repo from remote server
+git push <remote link name> <branch name> #upload local repo to remote server
+git pull <remote link name> <branch name> #fetches remote server and merge
+git pull #fetches remote server and merge to the local repo
+
+#To work on a project, first clone to it to the local system then create a new branch and work on that
+#new branch checkout to the last branch and git pull to get the latest update from the remote server
+#merge with the updation and resolve conflicts if any, the checkout to new branchwe have created and push it to remote and create
+#a pull request to the creator
+
+#.gitignore file is used to except adding some files to the repo due to security or unwanted file accumulation.
+#eg. if profile pics of users account is stored on a folder under development we keep it donot upload to the remote server.
+#directory names added to .gitignore files are neglected for adding to the cache and commit to the repo
+
+#gist of github is to publish or make  is save as private the code or code segment that may a lifesaver for future and also may be useful
+#for others(public gist).
+
+#action feature in github is to automate management of contributions of contributors, this scenario arises when a large number of
+#developers are working under a team lead making frequent updations for the code and to release it automatically by the automations
+#coded in the teamleads repository
+
+#project feature in github is to create project workflow based on the size and nature of the project, various inbuilt models are also there
+#for diferent projects.
