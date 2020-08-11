@@ -1,0 +1,15 @@
+button{
+    background: rgb(30, 93, 210);
+    color:rgb(214, 192, 192);
+    border: darkgreen;
+}
+#para1{
+    color: rgb(192, 50, 50);
+}
+#para2{
+    color: darkolivegreen;
+}
+.content{
+    color: darkorange;
+    background: darkturquoise;
+}
