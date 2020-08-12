@@ -1,7 +1,13 @@
 div{
-    height: 500;
-    width: 800;
+    padding-left: 20px;
+    padding-top: 1px;
+    height: 250px;
+    width: 500px;
+    background: rgb(187, 65, 17);
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 5px solid green;
 }
-h6{
+.ptcolor{
     color: white;
 }

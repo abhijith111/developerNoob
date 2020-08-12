@@ -1,0 +1,36 @@
+.outer{
+    height: 400px;
+    width: 600px;
+    background: green;
+}
+.inner1{
+    height: 160px;
+    width: 260px;
+    background: black;
+    float: left;
+    margin: 20px;
+}
+.inner2{
+    height: 160px;
+    width: 260px;
+    background: black;
+    float: left;
+    margin: 20px;
+
+}.inner3{
+    height: 160px;
+    width: 260px;
+    background: black;
+    float: left;
+    margin: 20px;
+}
+.inner4{
+    height: 160px;
+    width: 260px;
+    background: black;
+    float: left;
+    margin: 20px;
+}
+.htext{
+    color: white;
+}
