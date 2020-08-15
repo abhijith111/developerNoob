@@ -4,13 +4,13 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: 2000px;
     height: 640px;
     background: #f0f2f5;
 }
 
 .logopart{
-    width: 50%;
+    width: 1000px;
     float: left;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 .tablepart{
-    width: 50%;
+    width: 1000px;
     float: left;
 }
 .formpart{
@@ -91,7 +91,7 @@ body{
 
 
 .footer{
-    width: 100%;
+    width: 2000px;
     height: 221px;
     background: yellow;
 }
