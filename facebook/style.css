@@ -4,13 +4,13 @@ body{
 }
 
 .header{
-    width: 2000px;
-    height: 640px;
+    width: 1900px;
+    height: 750px;
     background: #f0f2f5;
 }
 
 .logopart{
-    width: 1000px;
+    width: 950px;
     float: left;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 .tablepart{
-    width: 1000px;
+    width: 950px;
     float: left;
 }
 .formpart{
@@ -36,7 +36,7 @@ body{
     width: 360px;
     height: 315px;
     background: white;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .inputab{
     width: 100%;
@@ -86,12 +86,22 @@ body{
     height:40px ;
     width: 180px;
     border: none;
+    margin-top: 10px;
 }
-
-
-
+.addceleb{
+    margin-top: 25px;
+    margin-left: 135px;
+    font-size: 12px;
+}
+.linkaddceleb{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 .footer{
-    width: 2000px;
-    height: 221px;
-    background: yellow;
+    width: 1900px;
+    height: 80px;
+    font-size: 11px;
+    color: #737373;
+    text-align: center;
 }
