@@ -1,0 +1,28 @@
+.MainFrame{
+    width: 600px;
+    height: 600px;
+    background: rgb(163, 157, 157);
+    padding-top: 1px;
+}
+
+.Display{
+    width: 580px;
+    height: 100px;
+    background: hotpink;
+    margin-left: 10px;
+}
+
+.ButtonSpace{
+    width: 580px;
+    height: 450px;
+    background: greenyellow;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-spacing: none;
+}
+
+.ButtonAll{
+    width: 140px;
+    height: 85px;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="MainFrame">
+        <div class="Display">
+            <h1 id="displayItem"> </h1>
+        </div>
+        <div class="ButtonSpace">
+            <table>
+                <tr>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(7)" type="button" value="7" id="button7">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(8)" type="button" value="8" id="button8">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(9)" type="button" value="9" id="button9">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute('/')" type="button" value="/" id="buttonDiv">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(4)" type="button" value="4" id="button4">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(5)" type="button" value="5" id="button5">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(6)" type="button" value="6" id="button6">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute('*')" type="button" value="x" id="buttonMul">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(1)" type="button" value="1" id="button1">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(2)" type="button" value="2" id="button2">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(3)" type="button" value="3" id="button3">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute('-')" type="button" value="-" id="buttonMinus">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="ButtonAll" onclick="compute('.')" type="button" value="." id="buttonDot">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute(0)" type="button" value="0" id="button0">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="clearScreen()" type="button" value="Clear" id="buttonClr">
+                    </td>
+                    <td>
+                        <input class="ButtonAll" onclick="compute('+')" type="button" value="+" id="buttonPlus">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="ButtonAll" onclick="result()" type="button" value="=" id="buttonEqual">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#headerBar{
+    width: 100%;
+    height: 300px;
+    background: red;
+}
+
+#innerHead{
+    width: 100%;
+    height: 300px;
+    background: blue;
+}
