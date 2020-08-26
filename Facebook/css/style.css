@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+
+.mainBody{
+    height: 680px;
+    background: #f0f2f5;
+}
+
+#logoDesc{
+    font-size: 25px;
+}
+
+#fbLogo{
+    height: 70%;
+    width: 30%;
+    margin-left: 20px;
+}
