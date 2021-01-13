@@ -72,8 +72,9 @@
         }
         
         function showPosition(position) {
-          x.innerHTML = "Latitude: " + position.coords.latitude +
-          "<br>Longitude: " + position.coords.longitude;
+            x.innerHTML = "<a href ='https://www.google.com/maps/search/"+position.coords.latitude+","+position.coords.longitude+"'>click here</a>" ;
+        //   x.innerHTML = "Latitude: " + position.coords.latitude +
+        //   "<br>Longitude: " + position.coords.longitude;
         }
         </script>
 </body>
